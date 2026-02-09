@@ -1,0 +1,1 @@
+{\n  "name": "instagram-advanced",\n  "private": true,\n  "workspaces": [\n    "frontend/*",\n    "backend/*"\n  ],\n  "scripts": {\n    "dev": "npm run --workspaces dev",\n    "build": "npm run --workspaces build",\n    "start": "npm run --workspaces start"\n  },\n  "devDependencies": {\n    "eslint": "^7.32.0",\n    "prettier": "^2.5.0"\n  },\n  "dependencies": {}\n}
